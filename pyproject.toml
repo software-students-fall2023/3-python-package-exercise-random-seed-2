@@ -25,9 +25,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-packages = find:
-include_package_data = true
-install_requires = []
 python_requires = ">=3.6"
 
 [project.urls]
