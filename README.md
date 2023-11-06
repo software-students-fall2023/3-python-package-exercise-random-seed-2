@@ -5,10 +5,10 @@
 A little exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
 
 ## Group Members 
-[Lara Kim](https://github.com/larahynkim) 
-[Andrew Huang](https://github.com/andrewhuanggg) 
-[Ahmed Omar](https://github.com/ahmed-o-324) 
-[Henry Wang](https://github.com/fishlesswater) 
+[Lara Kim](https://github.com/larahynkim) <br>
+[Andrew Huang](https://github.com/andrewhuanggg) <br>
+[Ahmed Omar](https://github.com/ahmed-o-324) <br>
+[Henry Wang](https://github.com/fishlesswater) <br>
 
 ## Python Package Link
 https://pypi.org/project/math-randomseed/0.1.0/ 
