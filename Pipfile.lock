@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "071fa4db7c8957a45632a2f223e505a03c88391a0ef809baeffc8a17c646e832"
+            "sha256": "1cc6e503972c7c79fd603c758805707f7c210723b51e70067fb324c8ec67d9ab"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.9"
+            "python_version": ">=3.6"
         },
         "sources": [
             {
@@ -35,7 +35,8 @@
         },
         "math-randomseed": {
             "editable": true,
-            "file": "."
+            "file": ".",
+            "markers": "python_version >= '3.6'"
         },
         "packaging": {
             "hashes": [

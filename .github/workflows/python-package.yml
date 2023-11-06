@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -24,10 +23,10 @@ jobs:
     - name: Install dependencies
       run: |
         pip install pipenv
-        pipenv install --dev --deploy
+        pipenv install --dev  
     - name: Test with pytest
       run: |
-        pipenv run pytest
+        pipenv run pytest  
     - name: Build package
       run: |
-        pipenv run python -m build
+        pipenv run python -m build  
