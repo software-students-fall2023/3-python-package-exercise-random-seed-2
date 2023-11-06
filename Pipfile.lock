@@ -42,7 +42,7 @@
         "math-randomseed": {
             "editable": true,
             "file": ".",
-            "markers": "python_version >= '3.6'"
+            "markers": "python_version >= '3.11' and python_version < '3.13'"
         },
         "more-itertools": {
             "hashes": [

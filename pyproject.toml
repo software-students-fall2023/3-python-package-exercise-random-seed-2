@@ -7,14 +7,14 @@ packages = ["math_randomseed"]
 
 [project]
 name = "math_randomseed"
-version = "0.1.0"
+version = "0.1.3"
 description = "A simple math operations package"
 authors = [
     { name = "Your Name", email = "your@email.com" }
 ]
 license = { file = "LICENSE" }
 readme = "README.md"
-keywords = ["math", "operations", "add", "subtract", "multiply", "divide"]
+keywords = ["math", "operations", "add", "subtract", "multiply", "divide", "get_math_fact"]
 
 classifiers = [
     "Programming Language :: Python :: 3",
