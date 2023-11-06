@@ -22,7 +22,7 @@ pip install pipenv
 
 2. Install all dependencies from `Pipfile.lock`
 ```
-pipenv install
+pipenv --python $(which python3) install
 ```
 
 3. Activate the virtual environment
