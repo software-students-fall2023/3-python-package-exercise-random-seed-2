@@ -38,6 +38,7 @@ pipenv install -e .
 5. Run tests
 ```
 pip install -U pytest
+
 pytest
 ```
 
