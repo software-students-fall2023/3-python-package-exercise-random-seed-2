@@ -5,7 +5,7 @@ on:
     branches: [ main, lara ]
   pull_request:
     branches: [ main, lara ]
-    
+
 jobs:
   build:
 
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: [3.8, 3.9]
+        python-version: [3.8]
 
     - name: Cache pipenv virtualenv
       uses: actions/cache@v3
@@ -34,6 +34,6 @@ jobs:
         pip install pipenv
         pipenv install --dev
 
-    - name: Test with pipenv
+    - name: Run pytest
       run: |
-        pipenv run your-test-command
+        pipenv run pytest tests/test_math_randomseed.py
