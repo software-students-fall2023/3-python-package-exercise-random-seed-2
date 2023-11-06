@@ -28,3 +28,8 @@ pipenv install -e .
 ```
 pytest
 ```
+
+6. Run example program
+```
+python3 example.py
+```
