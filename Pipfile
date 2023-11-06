@@ -13,4 +13,4 @@ math-randomseed = {file = ".", editable = true}
 pytest = ">=6.2"
 
 [requires]
-python_version = ">=3.10,<3.12"
+python_version = ">=3.11,<3.13"

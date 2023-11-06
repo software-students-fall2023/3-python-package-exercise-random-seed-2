@@ -23,7 +23,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-requires-python = ">=3.10,<3.12"
+requires-python = ">=3.11,<3.13"
 
 [project.urls]
 "Homepage" = "https://github.com/software-students-fall2023/3-python-package-exercise-random-seed-2/tree/main"
