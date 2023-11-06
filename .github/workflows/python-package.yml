@@ -41,9 +41,8 @@ jobs:
       run: |
         pipenv install --deploy --ignore-pipfile
 
-    - name: Activate virtual environment and run tests
+    - name: Run tests
       run: |
-        pipenv shell
         pipenv run pytest
 
     - name: Run example script
