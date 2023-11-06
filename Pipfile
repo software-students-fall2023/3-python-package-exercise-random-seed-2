@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 setuptools = "*"
-math-randomseed = {file = ".", editable = true}
 build = "*"
+pytest = "*"
+math-randomseed = {file = ".", editable = true}
 
 [dev-packages]
 pytest = "*"

@@ -20,7 +20,7 @@ def main():
     # divison by zero handling 
     try:
         divide_by_zero = divide(10, 0)
-    except ZeroDivisionError as e:
+    except ValueError as e:
         print(f"Caught an error when trying to divide by zero: {e}")
 
 if __name__ == "__main__":

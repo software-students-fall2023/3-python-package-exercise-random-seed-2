@@ -3,17 +3,15 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-name = "math_randomseed"
-version = "0.1.0"
 packages = ["math_randomseed"]
-package_dir = {"" = "src"}
 
 [project]
 name = "math_randomseed"
 version = "0.1.0"
 description = "A simple math operations package"
-author = "Your Name"
-author_email = "your@email.com"
+authors = [
+    { name = "Your Name", email = "your@email.com" }
+]
 license = { file = "LICENSE" }
 readme = "README.md"
 keywords = ["math", "operations", "add", "subtract", "multiply", "divide"]
@@ -25,9 +23,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-python_requires = ">=3.6"
+requires-python = ">=3.6"
 
 [project.urls]
 "Homepage" = "https://github.com/software-students-fall2023/3-python-package-exercise-random-seed-2/tree/main"
-
-

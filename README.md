@@ -21,7 +21,7 @@ pipenv shell
 
 4. Install the package
 ```
-pipenv install -e
+pipenv install -e . 
 ```
 
 5. Run tests
