@@ -1,6 +1,11 @@
+[![Python CI](https://github.com/software-students-fall2023/3-python-package-exercise-random-seed-2/actions/workflows/python-package.yml/badge.svg?branch=lara)](https://github.com/software-students-fall2023/3-python-package-exercise-random-seed-2/actions/workflows/python-package.yml)
+
 # Python Package Exercise
 
 A little exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
+
+## Python Package Link
+https://pypi.org/project/math-randomseed/0.1.0/ 
 
 ### Setting up Virtual Env, Installing Dependencies, and Building and Testing 
 
