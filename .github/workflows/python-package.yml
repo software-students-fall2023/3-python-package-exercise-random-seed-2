@@ -2,9 +2,9 @@ name: Python Package
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, lara ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, lara ]
 
 jobs:
   build:
