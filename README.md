@@ -11,7 +11,7 @@ A little exercise to create a Python package, build it, test it, distribute it, 
 [Henry Wang](https://github.com/fishlesswater) <br>
 
 ## Python Package Link
-https://pypi.org/project/math-randomseed/0.1.2/ 
+https://pypi.org/project/math-randomseed/0.1.3/
 
 ## Setting up Virtual Env, Installing Dependencies, and Building and Testing 
 
