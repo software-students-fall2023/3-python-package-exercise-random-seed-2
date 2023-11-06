@@ -1,5 +1,5 @@
 import pytest 
-from math_randomseed.math_randomseed import add, subtract, multiply, divide
+from math_randomseed.math_randomseed import add, subtract, multiply, divide, get_math_fact
 
 
 def test_add():
@@ -30,3 +30,7 @@ def test_divide():
     assert divide(5, 1) == 5
     with pytest.raises(ValueError):
         divide(5, 0)
+
+def test_get_math_fact():
+    fact = get_math_fact()
+    assert isinstance(fact, str) and len(fact) > 0

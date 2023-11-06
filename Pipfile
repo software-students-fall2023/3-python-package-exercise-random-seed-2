@@ -6,11 +6,8 @@ name = "pypi"
 [packages]
 setuptools = "*"
 build = "*"
-pytest = "~=4.6.0"
+pytest = "*"
 math-randomseed = {file = ".", editable = true}
 
 [dev-packages]
-pytest = "~=4.6.0"
-
-[requires]
-python_version = ">=3.8,<4.0"
+pytest = "*"
