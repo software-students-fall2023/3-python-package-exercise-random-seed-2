@@ -7,7 +7,7 @@ packages = ["math_randomseed"]
 
 [project]
 name = "math_randomseed"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple math operations package"
 authors = [
     { name = "Your Name", email = "your@email.com" }
@@ -22,6 +22,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+requires-python = ">=3.8"
 
 [project.urls]
 "Homepage" = "https://github.com/software-students-fall2023/3-python-package-exercise-random-seed-2/tree/main"
