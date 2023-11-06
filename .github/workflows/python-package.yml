@@ -10,13 +10,14 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         python-version: ['3.8', '3.9']
 
     steps:
     - uses: actions/checkout@v3
-    
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v4
       with:
@@ -37,15 +38,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install pipenv
 
-    - name: Install dependencies
-      run: |
-        pipenv install --deploy --ignore-pipfile
+    - name: Install dependencies from Pipfile.lock
+      run: pipenv sync
 
-    - name: Activate virtual environment and run tests
-      run: |
-        pipenv shell
-        pipenv run pytest
+    - name: Run tests
+      run: pipenv run pytest
 
     - name: Run example script
-      run: |
-        pipenv run python3 example.py
+      run: pipenv run python example.py
