@@ -1,6 +1,5 @@
 import pytest 
-from math_randomseed.math_randomseed import add, subtract, multiply, divide, get_math_fact
-
+from math_randomseed.math_randomseed import add, subtract, multiply, divide, get_math_fact, tell_math_joke
 
 def test_add():
     assert add(2,3) == 5
@@ -34,3 +33,7 @@ def test_divide():
 def test_get_math_fact():
     fact = get_math_fact()
     assert isinstance(fact, str) and len(fact) > 0
+
+def tell_math_joke():
+    joke = tell_math_joke()
+    assert isinstance(joke, str) and len(joke) > 0

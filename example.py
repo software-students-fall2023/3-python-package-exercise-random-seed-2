@@ -1,4 +1,4 @@
-from math_randomseed.math_randomseed import add, subtract, multiply, divide, get_math_fact
+from math_randomseed.math_randomseed import add, subtract, multiply, divide, get_math_fact, tell_math_joke
 
 def main():
     # addition
@@ -23,8 +23,15 @@ def main():
     except ValueError as e:
         print(f"Caught an error when trying to divide by zero: {e}")
 
+    # get a math fact
     math_fact = get_math_fact()
     print(f"Did you know? {math_fact}")
+
+    # tell a math joke
+    joke = tell_math_joke()
+    print(joke)
+
+
     
 if __name__ == "__main__":
     main()
