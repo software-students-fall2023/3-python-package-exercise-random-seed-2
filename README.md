@@ -25,11 +25,11 @@ Returns a fun math fact as a string.
 6. **tell_math_joke()**:<br>
 Returns a math joke as a string.
 
+See [example.py](./example.py) for, well, an example.
+
 ## Command Line Capability
 1. Type `tell_math_joke` into the command line to tell a math joke.
 2. Type `get_math_fact` into the command line to give a math fact.
-
-See [example.py](./example.py) for, well, an example.
 
 ## Python Package Link
 https://pypi.org/project/math-randomseed/0.1.3/
