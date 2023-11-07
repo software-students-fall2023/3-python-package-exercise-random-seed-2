@@ -32,7 +32,7 @@ See [example.py](./example.py) for, well, an example.
 
 
 ## Setting up Virtual Env, Installing Dependencies, and Building and Testing 
-
+After forking and cloning, 
 1. Install `pipenv`
 ```
 pip install pipenv 
