@@ -4,6 +4,8 @@
 
 The Math RandomSeed Python package is a lightweight library designed to bring a bit of fun to math operations. With simple addition, subtraction, multiplication, division functions and quirky mathematical facts, the package is both entertaining and auxiliary. The project follows conventional software engineering practices with testing, proper packaging, and clear instructions for easy distribution.
 Documentation for all functions and instructions of installing are listed.
+The Math RandomSeed Python package is a lightweight library designed to bring a bit of fun to math operations. With simple addition, subtraction, multiplication, division functions and quirky mathematical facts, the package is both entertaining and auxiliary. The project follows conventional software engineering practices with testing, proper packaging, and clear instructions for easy distribution.
+Documentation for all functions and instructions of installing are listed.
 
 ## Group Members 
 [Lara Kim](https://github.com/larahynkim) <br>
@@ -49,6 +51,10 @@ If you are using powershell:
 ```
 pipenv --python $(where.exe python3) install
 ```
+If you are using powershell:
+```
+pipenv --python $(where.exe python3) install
+```
 
 3. Activate the virtual environment
 ```
@@ -66,6 +72,7 @@ pip install -U pytest
 
 pytest
 ```
+If the pytest shows ImportError, try to install python 3.8 and start from beginning
 If the pytest shows ImportError, try to install python 3.8 and start from beginning
 
 6. Run an example program
