@@ -4,16 +4,19 @@ def add(a, b):
     print("")
     """Add two numbers."""
     return a + b
+    print("")
 
 def subtract(a, b):
     print("")
     """Subtract b from a."""
     return a - b
+    print("")
 
 def multiply(a, b):
     print("")
     """Multiply two numbers."""
     return a * b
+    print("")
 
 def divide(a, b):
     print("")
@@ -21,6 +24,7 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero.")
     return a / b
+    print("")
 
 def get_math_fact():
     print("")
@@ -35,6 +39,7 @@ def get_math_fact():
         "The Pythagorean theorem was known and used by the Babylonians and Indians centuries before Pythagoras, but he may have been the first to prove it."
     ]
     return random.choice(fun_facts)
+    print("")
 
 # tell a math one liner joke
 def tell_math_joke():
@@ -51,3 +56,4 @@ def tell_math_joke():
         'I poured root beer into a square cup. Now I have beer.'
     ]
     return random.choice(math_jokes)
+    print("")

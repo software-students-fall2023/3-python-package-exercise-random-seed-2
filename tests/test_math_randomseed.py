@@ -34,6 +34,6 @@ def test_get_math_fact():
     fact = get_math_fact()
     assert isinstance(fact, str) and len(fact) > 0
 
-def tell_math_joke():
+def test_tell_math_joke():
     joke = tell_math_joke()
     assert isinstance(joke, str) and len(joke) > 0
