@@ -2,10 +2,8 @@
 
 # Python Package Exercise
 
-The Math RandomSeed Python package is a lightweight library designed to bring a bit of fun to math operations. With simple addition, subtraction, multiplication, division functions and quirky mathematical facts, the package is both entertaining and auxiliary. The project follows conventional software engineering practices with testing, proper packaging, and clear instructions for easy distribution.
-Documentation for all functions and instructions of installing are listed.
-The Math RandomSeed Python package is a lightweight library designed to bring a bit of fun to math operations. With simple addition, subtraction, multiplication, division functions and quirky mathematical facts, the package is both entertaining and auxiliary. The project follows conventional software engineering practices with testing, proper packaging, and clear instructions for easy distribution.
-Documentation for all functions and instructions of installing are listed.
+The Math RandomSeed Python package is a lightweight library designed to bring a bit of fun to math operations. With simple addition, subtraction, multiplication, division functions, and quirky mathematical facts and jokes, the package is both entertaining and auxiliary. The project follows conventional software engineering practices with testing, proper packaging, and clear instructions for easy distribution.
+Documentation for all functions and instructions for installing are detailed below.
 
 ## Group Members 
 [Lara Kim](https://github.com/larahynkim) <br>
@@ -13,7 +11,10 @@ Documentation for all functions and instructions of installing are listed.
 [Ahmed Omar](https://github.com/ahmed-o-324) <br>
 [Henry Wang](https://github.com/fishlesswater) <br>
 
-## Functions
+## Python Package Link
+https://pypi.org/project/math-randomseed/0.2.3/
+
+## Package Functions
 1. **add(x, y)**:<br>
 Adds two numbers together.
 2. **subtract(x, y)**:<br>
@@ -23,18 +24,12 @@ Multiplies two numbers.
 4. **divide(x, y)**:<br>
 Divides the first number by the second. Raises a ValueError for division by zero.
 5. **get_math_fact()**:<br>
-Returns a fun math fact as a string.
+Returns a random fun math fact as a string.
 6. **tell_math_joke()**:<br>
-Returns a math joke as a string.
+Returns a math-themed joke as a string.
 
 See [example.py](./example.py) for, well, an example.
 
-## Command Line Capability
-1. Type `tell_math_joke` into the command line to tell a math joke.
-2. Type `get_math_fact` into the command line to give a math fact.
-
-## Python Package Link
-https://pypi.org/project/math-randomseed/0.1.3/
 
 ## Setting up Virtual Env, Installing Dependencies, and Building and Testing 
 
@@ -47,11 +42,7 @@ pip install pipenv
 ```
 pipenv --python $(which python3) install
 ```
-If you are using powershell:
-```
-pipenv --python $(where.exe python3) install
-```
-If you are using powershell:
+Or if you are using powershell:
 ```
 pipenv --python $(where.exe python3) install
 ```
@@ -73,7 +64,6 @@ pip install -U pytest
 pytest
 ```
 If the pytest shows ImportError, try to install python 3.8 and start from beginning
-If the pytest shows ImportError, try to install python 3.8 and start from beginning
 
 6. Run an example program
 ```
@@ -91,3 +81,21 @@ tell_math_joke
 ```
 get_math_fact
 ```
+
+## Installation and Usage 
+To install the most recent version of 'math-randomseed' as a PyPI package, simply run the following command in your terminal: 
+```
+pip install math-randomseed --upgrade 
+```
+or 
+```
+pip3 install math-randomseed --upgrade
+```
+
+To use 'math-randomseed' in your project, import the desired functions as follows: 
+```
+from math_randomseed import add, subtract, multiply, divide, get_math_fact, tell_math_joke
+```
+## Command Line Capability 
+1. Type `tell_math_joke` into the command line to tell a math joke.
+2. Type `get_math_fact` into the command line to give a math fact.
