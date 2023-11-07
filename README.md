@@ -24,6 +24,10 @@ pip install pipenv
 ```
 pipenv --python $(which python3) install
 ```
+If you are using powershell:
+```
+pipenv --python $(where.exe python3) install
+```
 
 3. Activate the virtual environment
 ```
@@ -41,8 +45,11 @@ pip install -U pytest
 
 pytest
 ```
+If the pytest shows ImportError, try to install python 3.8 and start from beginning
 
 6. Run example program
 ```
 python3 example.py
 ```
+
+## Documentation
