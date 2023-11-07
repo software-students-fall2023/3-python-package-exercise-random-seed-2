@@ -3,7 +3,7 @@
 # Python Package Exercise
 
 The Math RandomSeed Python package is a lightweight library designed to bring a bit of fun to math operations. With simple addition, subtraction, multiplication, division functions and quirky mathematical facts, the package is both entertaining and auxiliary. The project follows conventional software engineering practices with testing, proper packaging, and clear instructions for easy distribution.
-documentation for all functions
+Documentation for all functions and instructions of installing are listed.
 
 ## Group Members 
 [Lara Kim](https://github.com/larahynkim) <br>
@@ -22,7 +22,7 @@ Multiplies two numbers.
 Divides the first number by the second. Raises a ValueError for division by zero.
 5. get_math_fact():<br>
 Returns a fun math fact as a string.
-<br>
+
 See [examples](./example.py) for the details of using them.
 
 ## Python Package Link
