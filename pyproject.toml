@@ -7,8 +7,8 @@ packages = ["math_randomseed"]
 
 [project]
 name = "math_randomseed"
-version = "0.1.3"
-description = "A simple math operations package"
+version = "0.2.3"
+description = "A Python package providing basic math operations and a sprinkle of humor with random math facts and jokes."
 authors = [
     { name = "Your Name", email = "your@email.com" }
 ]
