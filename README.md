@@ -3,12 +3,28 @@
 # Python Package Exercise
 
 A little exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
+The Math RandomSeed Python package is a lightweight library designed to bring a bit of fun to math operations. With simple addition, subtraction, multiplication, division functions and quirky mathematical facts, the package is both entertaining and auxiliary. The project follows conventional software engineering practices with testing, proper packaging, and clear instructions for easy distribution.
+documentation for all functions
 
 ## Group Members 
 [Lara Kim](https://github.com/larahynkim) <br>
 [Andrew Huang](https://github.com/andrewhuanggg) <br>
 [Ahmed Omar](https://github.com/ahmed-o-324) <br>
 [Henry Wang](https://github.com/fishlesswater) <br>
+
+## Documentations of functions
+1. add(x, y):
+Adds two numbers together.
+2. subtract(x, y):
+Subtracts the second number from the first.
+3. multiply(x, y):
+Multiplies two numbers.
+4. divide(x, y):
+Divides the first number by the second. Raises a ValueError for division by zero.
+5. get_math_fact():
+Returns a fun math fact as a string.
+
+See [examples](./example.py) for the details of using them.
 
 ## Python Package Link
 https://pypi.org/project/math-randomseed/0.1.3/
@@ -52,4 +68,3 @@ If the pytest shows ImportError, try to install python 3.8 and start from beginn
 python3 example.py
 ```
 
-## Documentation
