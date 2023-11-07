@@ -26,8 +26,8 @@ Returns a fun math fact as a string.
 Returns a math joke as a string.
 
 ## Command Line Capability
-1. Type **tell_math_joke** into the command line to tell a math joke.
-2. Type **get_math_fact** into the command line to give a math fact.
+1. Type `tell_math_joke` into the command line to tell a math joke.
+2. Type `*get_math_fact` into the command line to give a math fact.
 
 See [example.py](./example.py) for, well, an example.
 
